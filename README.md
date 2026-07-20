@@ -11,18 +11,27 @@ My interests sit at the intersection of **ML engineering, DL, CV, AI agents and 
 
 ## Interesting work
 
+<table>
+<tr>
+<td colspan="2" valign="top">
+
 ### [ZeroDelay](https://github.com/Abhijithreddydasari/ZeroDelay)
 
-A Hands-free, on-device voice AI for high-risk technicians doing manual work on-site and offline
+A hands-free, on-device voice AI that guides technicians through high-risk repairs where reliable internet is unavailable. ([Demo](https://www.youtube.com/watch?v=6ydUqKCO4Sw))
 
-- **Built:** Your specific technical contribution
-- **Result:** Accuracy, latency, users, benchmark, demo, or another honest result
-- **Stack:** PyTorch, OpenCV, FastAPI, Docker
-- [Demo](https://www.youtube.com/watch?v=6ydUqKCO4Sw)
+- **Built:** An offline pipeline combining Gemma for speech, reasoning, and vision; Mutlimodal RAG for procedure retrieval; deterministic safety tools; Piper TTS; and live sensor monitoring
+- **Result:**  Runs locally on an 8 GB GPU using 4-bit quantization, with a FastAPI backend and Next.js/Electron desktop app
+- **Stack:** Python, Gemma, Transformers, FastAPI, sqlite-vec, Piper, Next.js
+
 
 🏆**Won 3rd place** in [Raise Summit Hackathon 2026](https://www.raisesummit.com/), Google Deepmind Track.
-
 Also got shortlisted for **pitching** our project in Paris next year to investors and audience!!
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
 
 ### [Y](https://github.com/Abhijithreddydasari/Y)
 🔧Build in progress!
@@ -33,6 +42,8 @@ A multimodal tutor that reads a learner’s whiteboard, checks their understandi
 - **Result:** Working end-to-end prototype with evidence-gated adaptation, rollback protection, local Gemma fallback, and Kokoro narration.
 - **Stack:** PyTorch, FastAPI, Next.js, TypeScript, Excalidraw, Modal
 
+</td>
+<td width="50%" valign="top">
 
 ### [CounterFeint](https://github.com/Abhijithreddydasari/CounterFeint)
 
@@ -41,7 +52,12 @@ An OpenEnv-compatible, three-agent RL environment that trains a compact LLM to i
 - **Built:** Fraudster–Investigator–Auditor arena, fraud-ring simulations, proxy rewards, and a GRPO/QLoRA training pipeline
 - **Result:** Deployed on HF Spaces; a 24-step T4 run improved held-out mean reware score by 38%.
 - **Stack:** PyTorch, Hugging Face TRL, OpenEnv, FastAPI, Docker
-- [Demo Space](https://huggingface.co/spaces/QuantumTransformer/CounterFeint) · [Report](https://huggingface.co/spaces/QuantumTransformer/CounterFeint/blob/main/blog.md)
+
+[Demo Space](https://huggingface.co/spaces/QuantumTransformer/CounterFeint) · [Report](https://huggingface.co/spaces/QuantumTransformer/CounterFeint/blob/main/blog.md)
+
+</td>
+</tr>
+</table>
 
 ## Current interests
 
@@ -58,7 +74,7 @@ I’m currently exploring:
 - **Languages:** Python, C++, SQL
 - **ML:** PyTorch, scikit-learn, Hugging Face, LangChain, TRL
 - **Engineering:** FastAPI, Docker, Linux, Git/GitHub
-- **Scientific computing:** NumPy, SciPy, Matplotlib, Matlab
+- **Scientific computing:** NumPy, SciPy, Matplotlib, Matlab, Qiskit
 <!--
 ## Research and experiments
 
